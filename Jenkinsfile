@@ -1,5 +1,5 @@
 node {
-   stage('Code Checkout') { // for display purposes
+   stage('Code Checkout') { 
      git credentialsId: 'github-credential', url: 'https://github.com/manee2k6/DKPractises.git' 
    }
    stage('Build') {
